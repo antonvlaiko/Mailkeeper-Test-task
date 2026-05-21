@@ -48,4 +48,4 @@
 
 ## Live Demo
 
-> Посилання на Streamlit Cloud буде додано після деплою
+**Live Demo:** https://pg2e73jazawt9qdcqgaa5n.streamlit.app/
