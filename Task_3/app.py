@@ -16,7 +16,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 # Завантаження даних 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Tesk_Task___Mail_Retention.csv", sep=";")
+    df = pd.read_csv("Task_3/Tesk_Task___Mail_Retention.csv", sep=";")
     df["date"] = pd.to_datetime(df["date"], format="%d.%m.%Y")
     df["is_read"]    = df["read_ts"].notna().astype(int)
     df["is_clicked"] = df["click_ts"].notna().astype(int)
